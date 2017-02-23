@@ -12,6 +12,7 @@
 using namespace std;
 
 class Phone_Directory{
+public:
     virtual void load_data(const string& source_name);
     virtual string add_or_change_entry(const string& name, const string& number);
     virtual string lookup_entry(const string& name) const;
