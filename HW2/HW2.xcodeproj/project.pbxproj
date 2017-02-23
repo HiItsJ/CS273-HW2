@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8AFFD31C1E5EA0350035B9D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD31B1E5EA0350035B9D2 /* main.cpp */; };
+		8AFFD3261E5EA8D00035B9D2 /* Directory_Entry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD3251E5EA8D00035B9D2 /* Directory_Entry.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		8AFFD3181E5EA0350035B9D2 /* HW2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW2; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFFD31B1E5EA0350035B9D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8AFFD3221E5EA3160035B9D2 /* Phone_Directory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Phone_Directory.hpp; sourceTree = "<group>"; };
+		8AFFD3231E5EA5640035B9D2 /* Array_Based_PD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array_Based_PD.hpp; sourceTree = "<group>"; };
+		8AFFD3241E5EA7AD0035B9D2 /* Directory_Entry.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Directory_Entry.hpp; sourceTree = "<group>"; };
+		8AFFD3251E5EA8D00035B9D2 /* Directory_Entry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Directory_Entry.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				8AFFD31B1E5EA0350035B9D2 /* main.cpp */,
+				8AFFD3221E5EA3160035B9D2 /* Phone_Directory.hpp */,
+				8AFFD3231E5EA5640035B9D2 /* Array_Based_PD.hpp */,
+				8AFFD3251E5EA8D00035B9D2 /* Directory_Entry.cpp */,
+				8AFFD3241E5EA7AD0035B9D2 /* Directory_Entry.hpp */,
 			);
 			path = HW2;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AFFD3261E5EA8D00035B9D2 /* Directory_Entry.cpp in Sources */,
 				8AFFD31C1E5EA0350035B9D2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
