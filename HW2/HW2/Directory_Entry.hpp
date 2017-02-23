@@ -8,9 +8,10 @@
 
 #ifndef Directory_Entry_h
 #define Directory_Entry_h
-#include "Array_Based_PD.hpp"
+#include <iostream>
+using namespace std;
 
-class Directory_Entry : public Array_Based_PD{
+class Directory_Entry{
 private:
     string name;
     string number;

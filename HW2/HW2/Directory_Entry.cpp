@@ -8,8 +8,6 @@
 
 #include <stdio.h>
 #include "Directory_Entry.hpp"
-#include <iostream>
-using namespace std;
 
 Directory_Entry::Directory_Entry(string name, string number){
     this->name = name;
